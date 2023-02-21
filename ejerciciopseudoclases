@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+    <link rel="stylesheet" href="../css/ejerciciofinal.css">
+</head>
+<body>
+    <button class="pass-over"></button>
+</body>
+</html>
+
+style.css
+
+.pass-over::before {
+    content: "Pasa por encima";
+}
+
+
+.pass-over:hover {
+    color: white;
+    background-color: green;
+}
+
+.pass-over::after {
+    content: "Hecho!";
+    display: none;
+}
+
+.pass-over:hover::before{
+    display: none;
+}
+
+.pass-over:hover::after {
+    display: inline;
+}
