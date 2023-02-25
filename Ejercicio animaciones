@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animaciones y transiciones en css</title>
+    <link rel="stylesheet" href="ejercicio.css">
+</head>
+<body>
+    <button class="btn-modern">Boton Moderno
+    </button>
+</body>
+</html>
