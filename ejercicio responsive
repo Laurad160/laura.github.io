@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Resposive en CSS</title>
+    <link rel="stylesheet" href="ejercicioresponsive.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sidebar">
+			<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+			</ul>
+		</div>
+		<div class="main-section"></div>
+	</div>
+</body>
+</html>
+
+/* Estilos CSS */
+
+.sidebar {
+	flex-basis: auto;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.sidebar li {
+	margin-right: 10px;
+}
+
+.main-section {
+	height: auto;
+}
+ .sidebar {
+	flex-basis: auto;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.sidebar li {
+	margin-right: 10px;
+}
+
+.main-section {
+	height: auto;
+}
+
+.sidebar ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	margin: 10px 0 0;
+}
+
+.sidebar li {
+	margin: 0 10px 10px 0;}
